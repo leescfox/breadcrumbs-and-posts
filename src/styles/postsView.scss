@@ -1,0 +1,13 @@
+@use '@/styles/pageWrapper';
+
+.posts-list {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-top: 16px;
+}
+
+.posts-list__item {
+    & + .posts-list__item {
+        margin-top: 24px;
+    }
+}

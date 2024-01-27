@@ -1,0 +1,14 @@
+.link {
+    color: rgb(0, 189, 126);
+    &:hover {
+        color: rgba(17, 93, 68, 0.772);
+    }
+}
+
+.link-mail,
+.link-tel {
+    color: rgb(211, 9, 211);
+    &:hover {
+        color: rgba(211, 9, 211, 0.384);
+    }
+}

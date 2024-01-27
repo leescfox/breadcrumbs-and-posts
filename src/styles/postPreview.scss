@@ -1,0 +1,13 @@
+@use '@/styles/links';
+
+.title {
+    font-size: 20px;
+    background-color: rgba(42, 42, 42, 0.388);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.post-link {
+    display: block;
+    padding: 24px;
+}

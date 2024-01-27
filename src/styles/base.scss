@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    background: rgb(24, 24, 24);
+    color: rgba(235, 235, 235, 0.64);
+    font-family: 'Roboto', sans-serif;
+}
+
+#app {
+    min-height: 100vh;
+}

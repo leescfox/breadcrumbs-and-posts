@@ -1,0 +1,39 @@
+@use '@/styles/pageWrapper';
+@use '@/styles/links';
+
+.post {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgba(42, 42, 42, 0.388);
+}
+
+.post-content__title {
+    font-size: 28px;
+}
+
+.post-content__title,
+.post-author__title {
+    font-weight: 600;
+}
+
+.post,
+.post-content__body {
+    margin-top: 16px;
+}
+
+.post-author {
+    margin-top: 24px;
+}
+
+.post-author__title,
+.post-error {
+    font-size: 20px;
+}
+
+.post-author__data {
+    margin-top: 8px;
+}
+
+.post-author__data-list {
+    padding-inline-start: 20px;
+}

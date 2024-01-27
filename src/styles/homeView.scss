@@ -1,0 +1,16 @@
+@use '@/styles/pageWrapper';
+@use '@/styles/links';
+
+.title,
+.subtitle {
+    font-weight: 600;
+}
+
+.subtitle,
+.nav {
+    margin-top: 16px;
+}
+
+.nav__list {
+    padding-inline-start: 32px;
+}
